@@ -1,8 +1,0 @@
-<%- include('partials/header') %> 
-<h1>Home</h1>
-<p><%= Content %></p>
-<%for(var i=0;i<logs.length;i++){%>
-    <h2><%= logs[i].title %></h2>
-    <div class="more"><p class="indpost"><%= logs[i].content %></p><span ><a href=<%= adrs[i].url%>>Read more</a></span></div>
-<%}%>
-<%- include('partials/footer') %> 
